@@ -1,494 +1,450 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17956" start="node14" appversion="6.1.8">
+<tour start="node14" appversion="6.1.8" apprev="17956">
   <panorama id="node14" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-158" fovmode="0">
-      <start fov="76.67" tilt="-0.63" projection="4" pan="19.2"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-158">
+      <start pan="19.2" tilt="-0.63" projection="4" fov="76.67"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85848748" comment="" datetime="" nodeid="node14" customnodeid="" source="" latitude="-33.93916854" description="" info="" copyright="" author="" tags="KDOutput" heading="-158">
-      <mapcoords y="-0.2211" x_floorplan_percent="41.3885" mapid="FloorPlan01" y_floorplan_percent="15.0749" x="0.42572"/>
+    <userdata copyright="" title="" latitude="-33.93916854" info="" author="" tags="KDOutput" source="" heading="-158" comment="" longitude="18.85848748" datetime="" nodeid="node14" description="" customnodeid="">
+      <mapcoords x="0.42572" x_floorplan_percent="41.3885" y_floorplan_percent="15.0749" mapid="FloorPlan01" y="-0.2211"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="-24.88" description="" skinid="ht_node" pan="-317.892" distance="3.07207" url="{node17}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-145.003" distance="4.65147" url="{node23}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-20.4" description="" skinid="ht_node" pan="-88.8588" distance="4.0438" url="{node22}"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="3.07207" title="" pan="-317.892" url="{node17}" tilt="-24.88" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.65147" title="" pan="-145.003" url="{node23}" tilt="0" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.0438" title="" pan="-88.8588" url="{node22}" tilt="-20.4" id="Point03" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node17" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="28" fovmode="0">
-      <start fov="83.65" tilt="-5.6" projection="4" pan="-45.57"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="28">
+      <start pan="-45.57" tilt="-5.6" projection="4" fov="83.65"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85850150" comment="" datetime="" nodeid="node17" customnodeid="" source="" latitude="-33.93919360" description="" info="" copyright="" author="" tags="KDOutput" heading="28">
-      <mapcoords y="-0.351563" x_floorplan_percent="44.0587" mapid="FloorPlan01" y_floorplan_percent="23.97" x="0.453186"/>
+    <userdata copyright="" title="" latitude="-33.93919360" info="" author="" tags="KDOutput" source="" heading="28" comment="" longitude="18.85850150" datetime="" nodeid="node17" description="" customnodeid="">
+      <mapcoords x="0.453186" x_floorplan_percent="44.0587" y_floorplan_percent="23.97" mapid="FloorPlan01" y="-0.351563"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="52.898" distance="3.07207" url="{node14}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-36.31" description="" skinid="ht_node" pan="103.44" distance="2.79673" url="{node8}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-44.23" description="" skinid="ht_node" pan="120.443" distance="1.42966" url="{node5}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-33.22" description="" skinid="ht_node" pan="174.707" distance="2.88824" url="{node9}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-30.24" description="" skinid="ht_node" pan="-113.667" distance="2.26192" url="{node12}"/>
-      <hotspot title="" id="Point06" target="$fwd" tilt="-21.17" description="" skinid="ht_node" pan="208.511" distance="3.65245" url="{node10}"/>
-      <hotspot title="" id="Point07" target="$fwd" tilt="-14.08" description="" skinid="ht_node" pan="206.549" distance="7.02605" url="{node11}"/>
-      <hotspot title="" id="Point08" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-141.684" distance="11.4977" url="{node18}"/>
-      <polyhotspot title="images/Sunflowers3.jpg" id="poly01" target="XXXXXXXXX" description="XXXXXXXXX&#xa;xxxxxxxxx&#xa;-------------" url="">
-        <polystring>-86/16.31|-8.94/15.83|-10.2/-37.16|-85.58/-36.04|-85.58/-36.04</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="3.07207" title="" pan="51.678" url="{node14}" tilt="-28.93" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.79673" title="" pan="103.44" url="{node8}" tilt="-36.31" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="1.42966" title="" pan="120.443" url="{node5}" tilt="-44.23" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.88824" title="" pan="174.707" url="{node9}" tilt="-33.22" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.26192" title="" pan="-113.667" url="{node12}" tilt="-30.24" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.65245" title="" pan="208.511" url="{node10}" tilt="-21.17" id="Point06" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="7.02605" title="" pan="206.549" url="{node11}" tilt="-14.08" id="Point07" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="11.4977" title="" pan="-141.684" url="{node18}" tilt="0" id="Point08" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node5" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="216" fovmode="0">
-      <start fov="70" tilt="-2.09" projection="4" pan="-39.94"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="216">
+      <start pan="-39.94" tilt="-2.09" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85848615" comment="" datetime="" nodeid="node5" customnodeid="" source="" latitude="-33.93919537" description="" info="" copyright="" author="" tags="KDOutput" heading="216">
-      <mapcoords y="-0.346069" x_floorplan_percent="38.0507" mapid="FloorPlan01" y_floorplan_percent="23.5955" x="0.391388"/>
+    <userdata copyright="" title="" latitude="-33.93919537" info="" author="" tags="KDOutput" source="" heading="216" comment="" longitude="18.85848615" datetime="" nodeid="node5" description="" customnodeid="">
+      <mapcoords x="0.391388" x_floorplan_percent="38.0507" y_floorplan_percent="23.5955" mapid="FloorPlan01" y="-0.346069"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="" tilt="-11.85" description="" skinid="ht_node" pan="-147.86" distance="2.98588" url="{node14}"/>
-      <hotspot title="" id="Point02" target="" tilt="-48.02" description="" skinid="ht_node" pan="-91.4" distance="1.48712" url="{node8}"/>
-      <hotspot title="" id="Point08" target="" tilt="-49.47" description="" skinid="ht_node" pan="-232.52" distance="1.42966" url="{node17}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-27.66" description="" skinid="ht_node" pan="93.6901" distance="3.15431" url="{node12}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-37.03" description="" skinid="ht_node" pan="392.252" distance="2.01058" url="{node9}"/>
-      <hotspot title="" id="Point06" target="$fwd" tilt="-21.61" description="" skinid="ht_node" pan="53.4587" distance="3.44984" url="{node10}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-14.18" description="" skinid="ht_node" pan="42.514" distance="6.8064" url="{node11}"/>
-      <hotspot title="" id="Point07" target="$fwd" tilt="0" description="" skinid="ht_node" pan="53.3617" distance="11.6456" url="{node18}"/>
-      <polyhotspot title="images/Sunflowers3.jpg" id="poly01" target="sunflowers 3 | sonneblomme 3" description="sunflowers 3 | sonneblomme 3&#xa;&#xa;acrylic on belgian linen&#xa;130cm x 180cm&#xa;R 45 000.00 - AVAILABLE" url="">
-        <polystring>-13.48/11.95|-13.47/10.98|-13.71/-25.04|-69.32/-25.09|-69.41/12.05</polystring>
-      </polyhotspot>
-      <polyhotspot title="" id="poly01" target="_blank" description="" url="">
-        <polystring>-213.66/8.51|-213.92/-20.36|-247.86/-18.78|-247.98/7.81</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="" distance="2.98588" title="" pan="-147.86" url="{node14}" tilt="-11.85" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="" distance="1.48712" title="" pan="-91.4" url="{node8}" tilt="-48.02" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="" distance="1.42966" title="" pan="-232.52" url="{node17}" tilt="-49.47" id="Point08" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.15431" title="" pan="93.6901" url="{node12}" tilt="-27.66" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.01058" title="" pan="392.252" url="{node9}" tilt="-37.03" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.44984" title="" pan="53.4587" url="{node10}" tilt="-21.61" id="Point06" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="6.8064" title="" pan="42.514" url="{node11}" tilt="-14.18" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="11.6456" title="" pan="53.3617" url="{node18}" tilt="0" id="Point07" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node8" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-29" fovmode="0">
-      <start fov="83.65" tilt="-0.08" projection="4" pan="-14.05"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-29">
+      <start pan="-14.05" tilt="-0.08" projection="4" fov="83.65"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85847155" comment="" datetime="" nodeid="node8" customnodeid="" source="" latitude="-33.93918970" description="" info="" copyright="" author="" tags="KDOutput" heading="-29">
-      <mapcoords y="-0.306244" x_floorplan_percent="33.1108" mapid="FloorPlan01" y_floorplan_percent="20.8801" x="0.340576"/>
+    <userdata copyright="" title="" latitude="-33.93918970" info="" author="" tags="KDOutput" source="" heading="-29" comment="" longitude="18.85847155" datetime="" nodeid="node8" description="" customnodeid="">
+      <mapcoords x="0.340576" x_floorplan_percent="33.1108" y_floorplan_percent="20.8801" mapid="FloorPlan01" y="-0.306244"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="-19.96" description="" skinid="ht_node" pan="-148.775" distance="1.48712" url="{node5}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-36.53" description="" skinid="ht_node" pan="-133.98" distance="2.79673" url="{node17}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-25.96" description="" skinid="ht_node" pan="-192.597" distance="2.69847" url="{node9}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-18.81" description="" skinid="ht_node" pan="-181.326" distance="4.49646" url="{node10}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-13.24" description="" skinid="ht_node" pan="-192.794" distance="7.66039" url="{node11}"/>
-      <hotspot title="" id="Point06" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-186.68" distance="12.6968" url="{node18}"/>
-      <polyhotspot title="images/Sonneblomme1.jpg" id="poly01" target="sunflowers 1 | sonneblomme 1" description="sunflowers 1 | sonneblomme 1&#xa;acrylic on belgian linen&#xa;85cm x 80cm&#xa;R 28 000.00 - AVAILABLE" url="">
-        <polystring>-346.86/35.98|-346.94/-13.65|-40.76/-14.39|-41.15/35.66</polystring>
-      </polyhotspot>
-      <polyhotspot title="images/Sunflowers2.jpg" id="poly01" target="sunflowers 2 | sonneblomme 2" description="sunflowers 2 | sonneblomme 2&#xa;acrylic on belgian linen&#xa;100cm x 85cm&#xa;R 28 000.00 - AVAILABLE" url="">
-        <polystring>-345.22/-16.68|-345.03/-53.18|-43.27/-55.16|-43.87/-18.21</polystring>
-      </polyhotspot>
-      <polyhotspot title="images/Sunflowers3.jpg" id="poly01" target="sunflowers 3 | sonneblomme 3" description="sunflowers 3 | sonneblomme 3&#xa;acrylic on belgian linen&#xa;130cm x 180cm&#xa;R 45 000.00 - AVAILABLE" url="">
-        <polystring>-222.52/12.41|-222.99/-26.19|-297.14/-46.51|-296.47/27.91</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="1.48712" title="" pan="-148.775" url="{node5}" tilt="-19.96" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.79673" title="" pan="-133.98" url="{node17}" tilt="-36.53" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.69847" title="" pan="-192.597" url="{node9}" tilt="-25.96" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.49646" title="" pan="-181.326" url="{node10}" tilt="-18.81" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="7.66039" title="" pan="-192.794" url="{node11}" tilt="-13.24" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="12.6968" title="" pan="-186.68" url="{node18}" tilt="0" id="Point06" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-74" fovmode="0">
-      <start fov="76.67" tilt="-0.46" projection="4" pan="30.01"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-74">
+      <start pan="30.01" tilt="-0.46" projection="4" fov="76.67"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85848044" comment="" datetime="" nodeid="node9" customnodeid="" source="" latitude="-33.93921282" description="" info="" copyright="" author="" tags="KDOutput" heading="-74">
-      <mapcoords y="-0.422974" x_floorplan_percent="34.0454" mapid="FloorPlan01" y_floorplan_percent="28.839" x="0.350189"/>
+    <userdata copyright="" title="" latitude="-33.93921282" info="" author="" tags="KDOutput" source="" heading="-74" comment="" longitude="18.85848044" datetime="" nodeid="node9" description="" customnodeid="">
+      <mapcoords x="0.350189" x_floorplan_percent="34.0454" y_floorplan_percent="28.839" mapid="FloorPlan01" y="-0.422974"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-30.54" description="" skinid="ht_node" pan="-159.306" distance="3.19982" url="{node12}"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="-29.59" description="" skinid="ht_node" pan="-53.687" distance="2.69847" url="{node8}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-31.46" description="" skinid="ht_node" pan="-110.343" distance="2.88824" url="{node17}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-21.84" description="" skinid="ht_node" pan="-241.083" distance="4.96777" url="{node11}"/>
-      <hotspot title="" id="Point08" target="$fwd" tilt="-36.15" description="" skinid="ht_node" pan="-216.544" distance="1.88192" url="{node10}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-230.434" distance="10.0095" url="{node18}"/>
-      <polyhotspot title="images/Blikemmer+Blikengel.jpg" id="poly01" target="tin bucket and angel | blikemmer blikengel" description="tin bucket and angel | blikemmer blikengel&#xa;acrylic on belgian linen&#xa;100cm x 120cm&#xa;R 35 000.00 - AVAILABLE" url="">
-        <polystring>-303.32/19.3|-303.35/-24.95|-359.78/-23.98|-0.54/17.95</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="3.19982" title="" pan="-159.306" url="{node12}" tilt="-30.54" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.69847" title="" pan="-53.687" url="{node8}" tilt="-29.59" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.88824" title="" pan="-110.343" url="{node17}" tilt="-31.46" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.96777" title="" pan="-241.083" url="{node11}" tilt="-21.84" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="1.88192" title="" pan="-216.544" url="{node10}" tilt="-36.15" id="Point08" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="10.0095" title="" pan="-230.434" url="{node18}" tilt="0" id="Point03" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-165" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-165">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85849356" comment="" datetime="" nodeid="node10" customnodeid="" source="" latitude="-33.93922578" description="" info="" copyright="" author="" tags="KDOutput" heading="-165">
-      <mapcoords y="-0.495758" x_floorplan_percent="37.6502" mapid="FloorPlan01" y_floorplan_percent="33.8015" x="0.387268"/>
+    <userdata copyright="" title="" latitude="-33.93922578" info="" author="" tags="KDOutput" source="" heading="-165" comment="" longitude="18.85849356" datetime="" nodeid="node10" description="" customnodeid="">
+      <mapcoords x="0.387268" x_floorplan_percent="37.6502" y_floorplan_percent="33.8015" mapid="FloorPlan01" y="-0.495758"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-153.571" distance="3.44984" url="{node5}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-34.59" description="" skinid="ht_node" pan="-121.524" distance="1.88192" url="{node9}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-18.61" description="" skinid="ht_node" pan="-135.946" distance="4.49646" url="{node8}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-24.51" description="" skinid="ht_node" pan="-160.149" distance="3.65245" url="{node17}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-35.11" description="" skinid="ht_node" pan="-204.652" distance="2.60377" url="{node12}"/>
-      <hotspot title="" id="Point07" target="$fwd" tilt="-31.55" description="" skinid="ht_node" pan="7.83545" distance="3.40048" url="{node11}"/>
-      <hotspot title="" id="Point08" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-325.153" distance="8.22199" url="{node18}"/>
-      <polyhotspot title="images/Jakopregoppe_Zinnias.jpg" id="poly01" target="zinnias | jakopregoppe" description="zinnias | jakopregoppe&#xa;acrylic on belgian linen&#xa;130cm x 180cm&#xa;R 45 000.00 - AVAILABLE" url="">
-        <polystring>-35.61/9.66|-36.38/-21.42|-82.56/-21.14|-82.37/10.07</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="3.44984" title="" pan="-153.571" url="{node5}" tilt="0" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="1.88192" title="" pan="-121.524" url="{node9}" tilt="-34.59" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.49646" title="" pan="-135.946" url="{node8}" tilt="-18.61" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.65245" title="" pan="-160.149" url="{node17}" tilt="-24.51" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.60377" title="" pan="-204.652" url="{node12}" tilt="-35.11" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.40048" title="" pan="7.83545" url="{node11}" tilt="-31.55" id="Point07" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="8.22199" title="" pan="-325.153" url="{node18}" tilt="0" id="Point08" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="130" fovmode="0">
-      <start fov="84.01" tilt="-1.39" projection="4" pan="-47.54"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="130">
+      <start pan="-47.54" tilt="-1.39" projection="4" fov="84.01"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85849256" comment="" datetime="" nodeid="node11" customnodeid="" source="" latitude="-33.93925635" description="" info="" copyright="" author="" tags="KDOutput" heading="130">
-      <mapcoords y="-0.63858" x_floorplan_percent="34.0454" mapid="FloorPlan01" y_floorplan_percent="43.5393" x="0.350189"/>
+    <userdata copyright="" title="" latitude="-33.93925635" info="" author="" tags="KDOutput" source="" heading="130" comment="" longitude="18.85849256" datetime="" nodeid="node11" description="" customnodeid="">
+      <mapcoords x="0.350189" x_floorplan_percent="34.0454" y_floorplan_percent="43.5393" mapid="FloorPlan01" y="-0.63858"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="-20.24" description="" skinid="ht_node" pan="143.847" distance="4.96777" url="{node9}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-32.06" description="" skinid="ht_node" pan="118.255" distance="3.40048" url="{node10}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-16.52" description="" skinid="ht_node" pan="124.549" distance="7.02605" url="{node17}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-14.52" description="" skinid="ht_node" pan="104.043" distance="5.49602" url="{node12}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-15.83" description="" skinid="ht_node" pan="133.354" distance="6.8064" url="{node5}"/>
-      <hotspot title="" id="Point06" target="$fwd" tilt="-13.8" description="" skinid="ht_node" pan="143.966" distance="7.66039" url="{node8}"/>
-      <polyhotspot title="images/Last+Flowers+of+Summer.jpg" id="poly01" target="last flowers of summer" description="last flowers of summer&#xa;acrylic on belgian linen&#xa;90cm x 100cm&#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-90.57/18.35|-90.87/-24.4|-146.03/-29.4|-146.52/21.71|-115.38/22.38</polystring>
-      </polyhotspot>
-      <polyhotspot title="images/Geel+Aandblomme.jpg" id="poly01" target="yellow moonflowers | geel aandblomme" description="yellow moonflowers | geel aandblomme&#xa;acrylic on belgian linen&#xa;100cm x 90cm &#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-17.73/22.91|-18.99/-34.9|-73.36/-29.66|-72.87/21.31</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="4.96777" title="" pan="143.847" url="{node9}" tilt="-20.24" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.40048" title="" pan="118.255" url="{node10}" tilt="-32.06" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="7.02605" title="" pan="124.549" url="{node17}" tilt="-16.52" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="5.49602" title="" pan="104.043" url="{node12}" tilt="-14.52" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="6.8064" title="" pan="133.354" url="{node5}" tilt="-15.83" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="7.66039" title="" pan="143.966" url="{node8}" tilt="-13.8" id="Point06" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="5.20604" title="" pan="-357.393" url="{node18}" tilt="-33.49" id="Point07" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="70" tilt="-1.87" projection="4" pan="-83.23"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-83.23" tilt="-1.87" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85851502" comment="" datetime="" nodeid="node12" customnodeid="" source="" latitude="-33.93921057" description="" info="" copyright="" author="" tags="KDOutput" heading="0">
-      <mapcoords y="-0.443573" x_floorplan_percent="47.3965" mapid="FloorPlan01" y_floorplan_percent="30.2434" x="0.487518"/>
+    <userdata copyright="" title="" latitude="-33.93921057" info="" author="" tags="KDOutput" source="" heading="0" comment="" longitude="18.85851502" datetime="" nodeid="node12" description="" customnodeid="">
+      <mapcoords x="0.487518" x_floorplan_percent="47.3965" y_floorplan_percent="30.2434" mapid="FloorPlan01" y="-0.443573"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="-19.59" description="" skinid="ht_node" pan="155.493" distance="5.49602" url="{node11}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="-36.01" description="" skinid="ht_node" pan="143.838" distance="2.60377" url="{node10}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-29.96" description="" skinid="ht_node" pan="85.7544" distance="3.19982" url="{node9}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="-21.43" description="" skinid="ht_node" pan="46.7824" distance="4.6332" url="{node8}"/>
-      <hotspot title="" id="Point05" target="$fwd" tilt="-35.23" description="" skinid="ht_node" pan="29.5234" distance="2.26192" url="{node17}"/>
-      <hotspot title="" id="Point07" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-175.077" distance="9.45978" url="{node18}"/>
-      <polyhotspot title="images/Verjaardagblomme.jpg" id="poly01" target="birthday flowers | verjaardagblomme" description="birthday flowers | verjaardagblomme&#xa;acrylic on belgian linen&#xa;100cm x 120cm&#xa;R 35 000.00 - AVAILABLE" url="">
-        <polystring>-65.1/10.03|-65.4/-26.84|-110.5/-25.12|-110.76/9.4</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="5.49602" title="" pan="155.493" url="{node11}" tilt="-19.59" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.60377" title="" pan="143.838" url="{node10}" tilt="-36.01" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.19982" title="" pan="85.7544" url="{node9}" tilt="-29.96" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.6332" title="" pan="46.7824" url="{node8}" tilt="-21.43" id="Point04" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.26192" title="" pan="29.5234" url="{node17}" tilt="-35.23" id="Point05" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="9.45978" title="" pan="-175.077" url="{node18}" tilt="0" id="Point07" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node18" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-99" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-99">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85852382" comment="" datetime="" nodeid="node18" customnodeid="" source="" latitude="-33.93929533" description="" info="" copyright="" author="" tags="KDOutput" heading="-99">
-      <mapcoords y="-0.850067" x_floorplan_percent="41.7891" mapid="FloorPlan01" y_floorplan_percent="57.9588" x="0.42984"/>
+    <userdata copyright="" title="" latitude="-33.93929533" info="" author="" tags="KDOutput" source="" heading="-99" comment="" longitude="18.85852382" datetime="" nodeid="node18" description="" customnodeid="">
+      <mapcoords x="0.42984" x_floorplan_percent="41.7891" y_floorplan_percent="57.9588" mapid="FloorPlan01" y="-0.850067"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-79.1526" distance="8.22199" url="{node10}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-94.077" distance="9.45978" url="{node12}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="-27.97" description="" skinid="ht_node" pan="-68.0023" distance="2.55691" url="{node19}"/>
-      <hotspot title="" id="Point04" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-271.513" distance="8.23413" url="{node20}"/>
-      <polyhotspot title="images/xxx.jpg" id="Poly01" target="title | title" description="yellow moonflowers | geel aandblomme&#xa;acrylic on belgian linen&#xa;100cm x 90cm &#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-160.55/11.08|-161.33/-19.31|-198.34/-18.78|-198.29/10.89</polystring>
-      </polyhotspot>
-      <polyhotspot title="images/xxx.jpg" id="Poly02" target="title | title" description="yellow moonflowers | geel aandblomme&#xa;acrylic on belgian linen&#xa;100cm x 90cm &#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-337.42/15.93|-336.86/-33.1|-17.58/-33.6|-15.76/16.7</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="8.22199" title="" pan="-89.9326" url="{node10}" tilt="-11.09" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="9.45978" title="" pan="-94.077" url="{node12}" tilt="0" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="2.55691" title="" pan="-68.0023" url="{node19}" tilt="-27.97" id="Point03" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="8.23413" title="" pan="-271.513" url="{node20}" tilt="0" id="Point04" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node19" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-14" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-14">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85850140" comment="" datetime="" nodeid="node19" customnodeid="" source="" latitude="-33.93928181" description="" info="" copyright="" author="" tags="KDOutput" heading="-14">
-      <mapcoords y="-0.766296" x_floorplan_percent="34.713" mapid="FloorPlan01" y_floorplan_percent="52.2472" x="0.357056"/>
+    <userdata copyright="" title="" latitude="-33.93928181" info="" author="" tags="KDOutput" source="" heading="-14" comment="" longitude="18.85850140" datetime="" nodeid="node19" description="" customnodeid="">
+      <mapcoords x="0.357056" x_floorplan_percent="34.713" y_floorplan_percent="52.2472" mapid="FloorPlan01" y="-0.766296"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-140.012" distance="2.55691" url="{node18}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-176" distance="10.1648" url="{node20}"/>
-      <polyhotspot title="images/XXX.jpg" id="Poly01" target="tiltle | title" description="yellow moonflowers | geel aandblomme&#xa;acrylic on belgian linen&#xa;100cm x 90cm &#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-334.37/17.67|-333.78/-31.98|-20.88/-32.85|-20.94/18.3</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="2.55691" title="" pan="-140.012" url="{node18}" tilt="0" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="10.1648" title="" pan="-176" url="{node20}" tilt="0" id="Point02" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node20" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-55" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-55">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85853545" comment="" datetime="" nodeid="node20" customnodeid="" source="" latitude="-33.93936875" description="" info="" copyright="" author="" tags="KDOutput" heading="-55">
-      <mapcoords y="-1.20575" x_floorplan_percent="38.4513" mapid="FloorPlan01" y_floorplan_percent="82.2097" x="0.395508"/>
+    <userdata copyright="" title="" latitude="-33.93936875" info="" author="" tags="KDOutput" source="" heading="-55" comment="" longitude="18.85853545" datetime="" nodeid="node20" description="" customnodeid="">
+      <mapcoords x="0.395508" x_floorplan_percent="38.4513" y_floorplan_percent="82.2097" mapid="FloorPlan01" y="-1.20575"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-36.9998" distance="10.1648" url="{node19}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-47.5133" distance="8.23413" url="{node18}"/>
-      <hotspot title="" id="Point03" target="$fwd" tilt="0" description="" skinid="ht_node" pan="82.5939" distance="6.6878" url="{node21}"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="10.1648" title="" pan="-36.9998" url="{node19}" tilt="0" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="8.23413" title="" pan="-47.5133" url="{node18}" tilt="0" id="Point02" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="6.6878" title="" pan="82.5939" url="{node21}" tilt="0" id="Point03" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node21" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-90" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-90">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85848656" comment="" datetime="" nodeid="node21" customnodeid="" source="" latitude="-33.93941316" description="" info="" copyright="" author="" tags="KDOutput" heading="-90">
-      <mapcoords y="-1.37054" x_floorplan_percent="15.2203" mapid="FloorPlan01" y_floorplan_percent="93.4457" x="0.156555"/>
+    <userdata copyright="" title="" latitude="-33.93941316" info="" author="" tags="KDOutput" source="" heading="-90" comment="" longitude="18.85848656" datetime="" nodeid="node21" description="" customnodeid="">
+      <mapcoords x="0.156555" x_floorplan_percent="15.2203" y_floorplan_percent="93.4457" mapid="FloorPlan01" y="-1.37054"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-132.406" distance="6.6878" url="{node20}"/>
-      <polyhotspot title="images/xxx.jpg" id="Poly01" target="title | title" description="yellow moonflowers | geel aandblomme&#xa;acrylic on belgian linen&#xa;100cm x 90cm &#xa;R 30 000.00 - AVAILABLE" url="">
-        <polystring>-357.84/1.21|-357.64/-14.51|-12.04/-14.78|-12.19/1.17</polystring>
-      </polyhotspot>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="6.6878" title="" pan="-132.406" url="{node20}" tilt="0" id="Point01" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node22" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-30" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-30">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85844745" comment="" datetime="" nodeid="node22" customnodeid="" source="" latitude="-33.93915372" description="" info="" copyright="" author="" tags="KDOutput" heading="-30">
-      <mapcoords y="-0.115356" x_floorplan_percent="27.7704" mapid="FloorPlan01" y_floorplan_percent="7.86517" x="0.285645"/>
+    <userdata copyright="" title="" latitude="-33.93915372" info="" author="" tags="KDOutput" source="" heading="-30" comment="" longitude="18.85844745" datetime="" nodeid="node22" description="" customnodeid="">
+      <mapcoords x="0.285645" x_floorplan_percent="27.7704" y_floorplan_percent="7.86517" mapid="FloorPlan01" y="-0.115356"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-72.539" distance="3.91467" url="{node23}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-144.049" distance="4.0438" url="{node14}"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="3.91467" title="" pan="-72.539" url="{node23}" tilt="0" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="4.0438" title="" pan="-144.049" url="{node14}" tilt="0" id="Point02" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <panorama id="node23" hideabout="1">
-    <input levelingpitch="0" levelingroll="0" width="1920" height="1920" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" overlap="1">
-      <level preload="0" width="1920" height="1920" predecode="0"/>
-      <level preload="0" width="960" height="960" predecode="0"/>
-      <level preload="1" width="480" height="480" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="1920" width="1920" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level height="1920" width="1920" preload="0" predecode="0"/>
+      <level height="960" width="960" preload="0" predecode="0"/>
+      <level height="480" width="480" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-16" fovmode="0">
-      <start fov="70" tilt="0" projection="4" pan="0"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" fovfisheye="360" fov="120" tilt="90" fovstereographic="270" pan="360"/>
+    <view fovmode="0" pannorth="-16">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" tilt="90" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata title="" longitude="18.85847614" comment="" datetime="" nodeid="node23" customnodeid="" source="" latitude="-33.93912778" description="" info="" copyright="" author="" tags="KDOutput" heading="-16">
-      <mapcoords y="-0.0192261" x_floorplan_percent="41.3885" mapid="FloorPlan01" y_floorplan_percent="1.31086" x="0.42572"/>
+    <userdata copyright="" title="" latitude="-33.93912778" info="" author="" tags="KDOutput" source="" heading="-16" comment="" longitude="18.85847614" datetime="" nodeid="node23" description="" customnodeid="">
+      <mapcoords x="0.42572" x_floorplan_percent="41.3885" y_floorplan_percent="1.31086" mapid="FloorPlan01" y="-0.0192261"/>
     </userdata>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textalpha="1" borderalpha="1" borderradius="1" width="180" height="20" backgroundalpha="1" enabled="0" backgroundcolor="0xffffff" background="1" wordwrap="1" border="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" bordercolor="0x000000" handcursor="1"/>
-      <hotspot title="" id="Point01" target="$fwd" tilt="0" description="" skinid="ht_node" pan="-183.003" distance="4.65147" url="{node14}"/>
-      <hotspot title="" id="Point02" target="$fwd" tilt="0" description="" skinid="ht_node" pan="121.461" distance="3.91467" url="{node22}"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" enabled="0" height="20" backgroundalpha="1" border="1" width="180" background="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" textcolor="0x000000" textalpha="1" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" backgroundalpha="0.117647" mode="2" backgroundcolor="0xffffff" handcursor="1" bordercolor="0x000000"/>
+      <hotspot target="$fwd" distance="4.65147" title="" pan="-183.003" url="{node14}" tilt="0" id="Point01" skinid="ht_node" description=""/>
+      <hotspot target="$fwd" distance="3.91467" title="" pan="121.461" url="{node22}" tilt="0" id="Point02" skinid="ht_node" description=""/>
     </hotspots>
     <media/>
-    <transition softedge="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" zoomout="0" blendtime="1" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" contextfullscreen="1" lockedkeyboard="0" lockedkeyboardzoom="0" hideabout="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" lockedmouse="0">
-      <menulink text="Create a VR Tour" url="https://vrtours.github.io/"/>
+    <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+      <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
   <masternode>
-    <userdata title="" longitude="" comment="" datetime="" nodeid="master" customnodeid="" source="" latitude="" description="" info="" copyright="" author="" tags="" heading="0"/>
+    <userdata copyright="" title="" latitude="" info="" author="" tags="" source="" heading="0" comment="" longitude="" datetime="" nodeid="master" description="" customnodeid=""/>
   </masternode>
-  <map title="" zoomlevels="1" id="FloorPlan01" type="file" floorplannorth="13" width="749" height="1068" bgcolor="rgba(255, 255, 255, 1)" transparent="0" tileformat="jpg"/>
+  <map tileformat="jpg" title="" bgcolor="rgba(255, 255, 255, 1)" zoomlevels="1" height="1068" id="FloorPlan01" width="749" transparent="0" type="file" floorplannorth="13"/>
 </tour>
