@@ -26,7 +26,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -61,7 +61,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -96,7 +96,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -129,7 +129,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -162,7 +162,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -196,7 +196,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -230,7 +230,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -263,7 +263,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -294,7 +294,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -323,7 +323,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -353,7 +353,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -381,7 +381,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -410,7 +410,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
@@ -439,7 +439,7 @@
     <media/>
     <transition zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomout="0" zoomfov="20" zoomin="0" zoomspeed="2" softedge="0" type="crossdissolve"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="0" contextprojections="0">
+    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" invertcontrol="1" simulatemass="1" invertwheel="0" hideabout="1" lockedwheel="1" contextprojections="0">
       <menulink url="https://vrtours.github.io/" text="Create a VR Tour"/>
     </control>
   </panorama>
